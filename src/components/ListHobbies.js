@@ -2,10 +2,16 @@ import React from 'react';
 
 
 const ListHobbies = () => (
-       const  listItems = hobbi.map(hobbi => (
-          <li key={hobbi}>
-          </li>
-        ));
+    //    const  listItems = hobbi.map(hobbi => (
+    //       <li key={hobbi}>
+    //       </li>
+    //     ));
+
+        <ul >
+           {hobbi.map(hobbi =>
+                <li key={hobbi}></li>
+           )};
+        </ul>
 
 )
 
