@@ -1,8 +1,11 @@
 import React from 'react';
 
 
-const Section = () => (
-  <p className="Center"> hola me llamo Marina Rodriguez y soy estudiante de Front End</p>
+const Section = ({dato}) => (
+    <div>
+      <p className="Center">{dato.bio}</p>
+      <img src={dato.img}/>
+    </div>
 )
 
 export default Section
